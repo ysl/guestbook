@@ -1,0 +1,14 @@
+{
+    "db": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "demo"
+    },
+    "aws": {
+        "accessKeyId": "AKIXXXXXXXXXXXXXXXXX",
+        "secretAccessKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "region": "ap-northeast-1",
+        "s3Bucket": ""
+    }
+}
