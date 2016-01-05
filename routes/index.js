@@ -17,12 +17,13 @@ exports.post = function(req, res) {
     var name = req.body.name;
     var message = req.body.message;
 
-    console.log(req.body);
-    console.log(req.file);
+    // Debug.
+    console.log('Post data:', req.body);
 
     // Compose the photo path.
     var photoPath;
     if (req.file) {
+        console.log('Post file:', req.file);
         photoPath = 'images/' + req.file.filename;
     }
 

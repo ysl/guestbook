@@ -38,3 +38,4 @@
  * Run
 
         $ bin/www
+        # Then open URL http://localhost:3000
